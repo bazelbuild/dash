@@ -3,7 +3,7 @@ java_library(
     srcs = ["ProtoInputStream.java"],
     deps = [
         "//external:javax/servlet/api",
-        "//third_party:protobuf",
+        "@bazel_tools//third_party:protobuf",
     ],
 )
 
@@ -13,12 +13,12 @@ java_test(
         "DashRequestTest.java",
     ],
     deps = [
-        "@appengine-java//:jars",
+        "@com_google_appengine_java//:jars",
         "@easymock//jar",
         ":util",
         "//src/main/java:servlets",
         "//src/main/protobuf:proto_dash",
-        "//third_party:junit4",
-        "//third_party:truth",
+        "@bazel_tools//third_party:junit4",
+        "@bazel_tools//third_party:truth",
     ],
 )

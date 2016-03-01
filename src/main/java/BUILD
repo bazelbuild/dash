@@ -10,10 +10,10 @@ java_library(
     srcs = glob(["**/*.java"]),
     visibility = ["//src/test/java/com/google/devtools/dash:__pkg__"],
     deps = [
-        "@appengine-java//:api",
+        "@com_google_appengine_java//:api",
         "//external:javax/servlet/api",
         "//src/main/protobuf:proto_dash",
-        "//third_party:apache_velocity",
-        "//third_party:guava",
+        "@bazel_tools//third_party:apache_velocity",
+        "@bazel_tools//third_party:guava",
     ],
 )

@@ -39,5 +39,5 @@ java_library(
     name = "javax.servlet.api",
     neverlink = 1,
     visibility = ["//visibility:public"],
-    exports = ["@javax-servlet-api//jar:jar"],
+    exports = ["@javax_servlet_api//jar:jar"],
 )
