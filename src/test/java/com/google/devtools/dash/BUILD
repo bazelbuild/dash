@@ -3,7 +3,7 @@ java_library(
     srcs = ["ProtoInputStream.java"],
     deps = [
         "//external:javax/servlet/api",
-        "@bazel_tools//third_party:protobuf",
+        "@bazel_tools//third_party/protobuf",
     ],
 )
 
