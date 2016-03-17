@@ -8,7 +8,7 @@ java_library(
 )
 
 java_test(
-    name = "dash",
+    name = "DashRequestTest",
     srcs = [
         "DashRequestTest.java",
     ],
