@@ -13,7 +13,14 @@
 # limitations under the License.
 
 # WORKSPACE file example to download Java AppEngine dependencies.
-load('@bazel_tools//tools/build_rules/appengine:appengine.bzl', 'appengine_repositories')
+
+git_repository(
+    name = "io_bazel_rules_appengine",
+    remote = "https://github.com/bazelbuild/rules_appengine.git",
+    tag = "0.0.2",
+)
+
+load("@io_bazel_rules_appengine//appengine:appengine.bzl", "appengine_repositories")
 appengine_repositories()
 
 maven_jar(
