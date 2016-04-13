@@ -20,6 +20,12 @@ git_repository(
     tag = "0.0.2",
 )
 
+git_repository(
+    name = "bazel_protobuf",
+    remote = "https://github.com/bazelbuild/bazel.git",
+    commit = "bbf59ed1",
+)
+
 load("@io_bazel_rules_appengine//appengine:appengine.bzl", "appengine_repositories")
 appengine_repositories()
 
