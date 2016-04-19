@@ -21,7 +21,7 @@ git_repository(
 )
 
 git_repository(
-    name = "bazel_protobuf",
+    name = "io_bazel",
     remote = "https://github.com/bazelbuild/bazel.git",
     commit = "bbf59ed1",
 )
