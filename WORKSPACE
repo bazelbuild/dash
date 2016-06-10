@@ -11,13 +11,14 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+workspace(name = "io_bazel_dash")
 
 # WORKSPACE file example to download Java AppEngine dependencies.
 
 git_repository(
     name = "io_bazel_rules_appengine",
     remote = "https://github.com/bazelbuild/rules_appengine.git",
-    tag = "0.0.2",
+    tag = "0.0.3",
 )
 
 git_repository(
