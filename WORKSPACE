@@ -24,7 +24,7 @@ git_repository(
 git_repository(
     name = "io_bazel",
     remote = "https://github.com/bazelbuild/bazel.git",
-    tag = "0.2.3",
+    tag = "0.4.3",
 )
 
 load("@io_bazel_rules_appengine//appengine:appengine.bzl", "appengine_repositories")
