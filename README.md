@@ -1,3 +1,5 @@
+**Warning: This project was experimental. It is not maintained anymore and should be consider deprecated.**
+
 # A Dashboard for Bazel
 
 This is a self-hosted dashboard for Bazel. In particular, this runs a server
