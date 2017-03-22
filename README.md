@@ -1,4 +1,4 @@
-**Warning: This project was experimental. It is not maintained anymore and should be consider deprecated.**
+**Warning: This project was experimental. It is not maintained anymore and should be considered deprecated.**
 
 # A Dashboard for Bazel
 
